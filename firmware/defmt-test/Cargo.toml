@@ -24,3 +24,6 @@ defmt-info = []
 defmt-warn = []
 defmt-error = []
 default = ["defmt-trace"] # enable everything
+
+[dev-dependencies]
+trybuild = "1"
